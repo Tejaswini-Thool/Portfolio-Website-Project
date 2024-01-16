@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 60px;
+            background-color: rgb(18, 18, 62);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(123, 123, 230);
+            font-size: 1.4rem;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .section1 {
+            display: flex;
+            justify-content: space-around;
+            margin: 80px 0;
+        }
+
+        .section1>div {
+            width: 30%;
+        }
+
+        .leftsec {
+            font-size: 3rem;
+            margin: 30px;
+        }
+
+        .rightsec {
+            width: 80%;
+
+        }
+        .leftse .button{
+            padding: 50px 0;
+        }
+        .leftsec .btn{
+            padding: 12px;
+            background: rgb(90, 90, 185);
+            color: white;
+            border: 2px solid black;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .color {
+            color: purple;
+        }
+
+        #element {
+            color: rgb(195, 195, 251);
+        }
+
+        .section2 {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .color2 {
+            color: rgb(159, 158, 158);
+        }
+
+        .section2 h1 {
+            font-size: 1.9rem;
+        }
+
+        .section2 .box {
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .section2 .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 100px;
+        }
+
+        .image-top {
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 75px;
+            width: 150px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 86px;
+            color: gray;
+            width: 150px;
+            font-size: 9px;
+
+        }
+
+        footer {
+            background-color: rgb(20, 20, 47);
+            height: 233px;
+        }
+
+        .footer {
+            display: flex;
+            margin: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+        .footer> div{
+            width:223;
+        }
+       footer .footer-right{
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Tejaswini Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="section1">
+            <div class="leftsec">Hi, i am <span class="color"> Tejaswini </span>
+                <div>And i am a Web Developer</div>
+                <span id="element"></span>
+                <div class="button">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit Github</button>
+
+                </div>
+
+</body>
+</div>
+<div class="rightsec"><img src="developer.png" alt="">
+</div>
+</section>
+<section class="section2">
+    <span class="color2">what i have done so far</span>
+    <h1>Work Experience</h1>
+    <div class="box">
+        <div class="vertical">
+            <img class="image-top" src="html.png" alt="">
+            <div class="vertical-title">
+                HTML Developer
+                CSS Developer
+            </div>
+            <div class="vertical-desc">
+                An HTML Developer, often referred to as a Front-End Developer, is responsible for creating the structure and layout of web pages using HyperText Markup Language (HTML). 
+                A CSS Developer, often referred to as a Front-End Developer or Web Stylist, is a professional responsible for styling and visually enhancing web pages by using Cascading Style Sheets (CSS). 
+            </div>
+        </div>
+        <div class="vertical">
+            <img class="image-top" src="js1.png" alt="">
+            <div class="vertical-title">
+                JS Developer
+            </div>
+            <div class="vertical-desc">
+                A JavaScript Developer, often referred to as a Front-End Developer or Web Developer, specializes in creating interactive and dynamic web applications by using JavaScript, along with HTML and CSS.
+            </div>
+        </div>
+        <div class="vertical">
+            <img class="image-top" src="laravel.png" alt="">
+            <div class="vertical-title">
+                Laravel Developer
+            </div>
+            <div class="vertical-desc">
+                Laravel 6 Mounth Work Experience.A Laravel Developer is a specialized web developer who focuses on creating web applications using the Laravel PHP framework. 
+            </div>
+        </div>
+        <div class="vertical">
+            <img class="image-top" src="cakephp.png" alt="">
+            <div class="vertical-title">
+                CakePHP Developer
+            </div>
+            <div class="vertical-desc">
+                CakePHP1.2 1 year Work Experience.A CakePHP Developer is a specialized web developer who focuses on building web applications using the CakePHP framework, a popular open-source PHP framework known for its rapid development capabilities and convention over configuration approach. 
+            </div>
+        </div>
+        <div class="vertical">
+            <img class="image-top" src="sql.png" alt="">
+            <div class="vertical-title">
+                SQL Developer
+            </div>
+            <div class="vertical-desc">
+                Sql yog 1 year work Experience.
+                A SQL Developer is a specialized professional responsible for designing, developing, and maintaining database systems using SQL (Structured Query Language).
+            </div>
+        </div>
+        <div class="vertical">
+            <img class="image-top" src="postman.png" alt="">
+            <div class="vertical-title">
+                Api Developer
+            </div>
+            <div class="vertical-desc">
+                Postman is a popular and powerful tool for testing and documenting APIs. It provides a user-friendly interface for sending HTTP requests to APIs, receiving responses, and managing your API testing workflow.
+            </div>
+        </div>
+
+    </div>
+</section>
+</main>
+<footer>
+    <div class="footer">
+    <div class="footer-first">
+    </div>
+    <h1>Tejaswini Developer Portfolio</h1>
+    <div class="footer-second">
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Contact</li>
+
+        </ul>
+    </div>
+    <div class="footer-third">
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Contact</li>
+
+        </ul>
+    </div>
+    <div class="footer-fourth">
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Contact</li>
+
+        </ul>
+    </div>
+</div>
+<div class="footer-right">
+    www.tejaswiniportfolio.com | All right reserved
+</div>
+</footer>
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<script>
+    var typed = new Typed('#element', {
+        strings: ['Web Developer', 'php Developer', 'Web Designer'],
+        typeSpeed: 50,
+    });
+</script>
+</body>
+
+</html>
